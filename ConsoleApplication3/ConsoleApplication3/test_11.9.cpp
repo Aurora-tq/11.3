@@ -123,24 +123,24 @@
 //如果是小写字符就输出对应的大写字符，
 //如果接收的是大写字符，就输出对应的小写字符，
 //如果是数字不输出。
-#include<stdio.h>
-int main()
-{
-	char i;
-	printf("please input a char:\n");
-	while (1)
-	{
-		scanf("%c", &i);
-		if (i >= 97 && i <= 122)
-		{
-			printf("对应的字符为：%c\n", i - 32);
-		}
-		if (i >= 65 && i <= 90)
-		{
-			printf("对应的字符为：%c\n", i + 32);
-		}
-		if (i >= 48 && i <= 57)
-			printf("\n");
-	}
-	return 0;
-}
+//#include<stdio.h>
+//int main()
+//{
+//	char i;
+//	printf("please input a char:\n");
+//	while (1)
+//	{
+//		scanf("%c", &i);
+//		if (i >= 97 && i <= 122)
+//		{
+//			printf("对应的字符为：%c\n", i - 32);
+//		}
+//		if (i >= 65 && i <= 90)
+//		{
+//			printf("对应的字符为：%c\n", i + 32);
+//		}
+//		if (i >= 48 && i <= 57)
+//			printf("\n");
+//	}
+//	return 0;
+//}
